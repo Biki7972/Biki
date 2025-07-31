@@ -3,49 +3,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>For You, Tithi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For my Janu❤️ My tithi❤️</title>
   <style>
     body {
-      background: #fff0f6;
-      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #ffd1dc, #ffe6f0);
+      color: #6b1e2d;
       text-align: center;
-      padding: 30px;
-      color: #d63384;
+      overflow-x: hidden;
+      animation: fadeIn 3s ease-in;
     }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
     h1 {
       font-size: 2.5em;
-      margin-bottom: 10px;
+      margin-top: 30px;
     }
+
     p {
       font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-    .gallery img {
+      margin: 20px auto;
       width: 90%;
-      max-width: 300px;
-      margin: 10px auto;
+      max-width: 600px;
+      line-height: 1.8em;
+      background: rgba(255,255,255,0.6);
+      padding: 20px;
       border-radius: 20px;
-      box-shadow: 0 0 10px #ffc9de;
-      display: block;
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.3);
     }
-    iframe {
-      margin-top: 40px;
-      width: 90%;
-      max-width: 500px;
-      height: 300px;
+
+    .photo {
+      margin-top: 20px;
+      max-width: 90%;
       border-radius: 20px;
-      box-shadow: 0 0 10px #d63384;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+
+    audio {
+      margin-top: 30px;
+      width: 80%;
     }
   </style>
 </head>
 <body>
-  <h1>🌸 For You, Tithi 🌸</h1>
-  <p>You're the most special person in my life, and this little website is just for you 💗</p>
-  <div class="gallery">
-    <img src="IMG_20250801_013104_993.jpg" alt="Photo 1">
-    <img src="IMG_20250801_013206_056.jpg" alt="Photo 2">
-    <img src="IMG_20250801_013210_596.jpg" alt="Photo 3">
-  </div>
-  <iframe src="https://www.youtube.com/embed/RLzC55ai0eo?start=20&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+  <h1>For my Janu❤️ My tithi❤️</h1>
+  <p>
+    I miss you Tithi🥲 I miss you terribly! I feel incomplete without you. I miss your scent,
+    your love, and your care. I badly want to fall asleep in your chest, snuggling next to your heart.
+    I wish I had wings to fly to your place and soak in your love. No words can express my longing for you Janu,
+    my heart cannot bear this distance anymore. I am waiting for that day when I wake up and you are next to me🥲
+    <br><br>
+    I love you tithiii... I love you a lottt❤️
+  </p>
+
+  <img class="photo" src="IMG_20250801_013104_993.jpg" alt="Photo 1">
+  <img class="photo" src="IMG_20250801_013206_056.jpg" alt="Photo 2">
+  <img class="photo" src="IMG_20250801_013210_596.jpg" alt="Photo 3">
+
+  <audio autoplay controls loop>
+    <source src="Heartquake_Lyrical_Song___Karwaan___Irrfan_Khan,_Dulquer_Salmaan,_Mithila_Palkar____Papon(256k).mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
 </body>
 </html>
